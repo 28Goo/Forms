@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 30%;
+}
+
+input {
+    margin: 10px;
+}
+
+input:invalid {
+    box-shadow: 0 0 5px 1px red;
+}
