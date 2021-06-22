@@ -14,6 +14,12 @@
         <label for="country">Select your country:</label>
         <input type="text" list="dl-country" id="country" name="country">
         <datalist id="dl-country"></datalist>
+        <label for="zip">Zip Code:</label>
+        <input type="text" id="zip" pattern="([0-9]{3})|([0-9]{4})" title="Four digit zip code" name="zip"/>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password" name="confirm-password">
 
         <button type="submit">Submit</button>
     </form>
